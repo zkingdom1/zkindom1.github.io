@@ -60,11 +60,15 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
+}
+
+div.black{
+	background-color: #000000;
 }
 
 hr {
@@ -76,11 +80,18 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: #FFFFFF;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #FFFFFF;
+}
+
+li.list-group-item{
+	color: white;
+	background-color: #5A5A5A;
 }
 
 abbr[title],
@@ -152,7 +163,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #127FD9;
   text-decoration: none;
   background-color: transparent;
 }
@@ -353,7 +364,6 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
-  color: inherit;
 }
 
 h1, .h1 {
@@ -4603,6 +4613,7 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+  background-color:#4F4F4F;
 }
 
 .card-title {
@@ -4629,8 +4640,8 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #FFFFFF;
+  background-color: #5A5A5A;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
