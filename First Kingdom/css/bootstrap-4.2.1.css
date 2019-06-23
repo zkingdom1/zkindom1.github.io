@@ -86,9 +86,16 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #FFFFFF;
+  color: white;
 }
 
+p.card-text{
+	color: white;
+}
+
+h4{
+	color: black;
+}
 li.list-group-item{
 	color: white;
 	background-color: #5A5A5A;
@@ -1797,7 +1804,7 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width : 10px ){
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -4272,7 +4279,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width : 10px ){
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
