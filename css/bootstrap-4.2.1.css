@@ -41,6 +41,10 @@
   box-sizing: border-box;
 }
 
+h4{
+	color: white;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -60,7 +64,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: black;
 }
 
 [tabindex="-1"]:focus {
@@ -78,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+
 h2.request{
 	text-align: center;
 	color: orangered;
@@ -86,6 +91,7 @@ h2.request{
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: white;
 }
 
 abbr[title],
