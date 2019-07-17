@@ -65,8 +65,17 @@ body {
   color: #212529;
   text-align: left;
   background-color: black;
+  
 }
 
+.hero-image{
+  background-image:url("images/planet-3840x2160-galaxy-stars-4k-16848.jpg");
+  background-color: #cccccc;
+  height: 1350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
